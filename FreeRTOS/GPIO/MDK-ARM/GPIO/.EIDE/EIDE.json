@@ -1,0 +1,175 @@
+{
+    "name": "GPIO",
+    "type": "ARM",
+    "mode": "Release",
+    "dependenceList": [
+        {
+            "groupName": "custom",
+            "depList": [
+                {
+                    "name": "default",
+                    "incList": [
+                        "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Inc",
+                        "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                        "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                        "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                        "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\CMSIS\\Include"
+                    ],
+                    "libList": [],
+                    "sourceDirList": [],
+                    "defineList": [
+                        "USE_HAL_DRIVER",
+                        "STM32F103xB"
+                    ]
+                }
+            ]
+        }
+    ],
+    "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "optimizationLevel": "3",
+        "optimizationFocusOnTime": false,
+        "useMicroLib": true,
+        "floatingPointHardware": "default",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "undefined",
+        "storageLayout": {
+            "RAM": [
+                {
+                    "tag": "RAM",
+                    "id": 1,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "noInit": false
+                },
+                {
+                    "tag": "RAM",
+                    "id": 2,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "noInit": false
+                },
+                {
+                    "tag": "RAM",
+                    "id": 3,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "noInit": false
+                },
+                {
+                    "tag": "IRAM",
+                    "id": 1,
+                    "mem": {
+                        "startAddr": "0x20000000",
+                        "size": "0x5000"
+                    },
+                    "isChecked": true,
+                    "noInit": false
+                },
+                {
+                    "tag": "IRAM",
+                    "id": 2,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "noInit": false
+                }
+            ],
+            "ROM": [
+                {
+                    "tag": "ROM",
+                    "id": 1,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "isStartup": false
+                },
+                {
+                    "tag": "ROM",
+                    "id": 2,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "isStartup": false
+                },
+                {
+                    "tag": "ROM",
+                    "id": 3,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "isStartup": false
+                },
+                {
+                    "tag": "IROM",
+                    "id": 1,
+                    "mem": {
+                        "startAddr": "0x8000000",
+                        "size": "0x10000"
+                    },
+                    "isChecked": true,
+                    "isStartup": true
+                },
+                {
+                    "tag": "IROM",
+                    "id": 2,
+                    "mem": {
+                        "startAddr": "0x0",
+                        "size": "0x0"
+                    },
+                    "isChecked": false,
+                    "isStartup": false
+                }
+            ]
+        },
+        "oneELFSection": true,
+        "strictANSIC": false,
+        "gnuExtensions": false,
+        "enumIsInt": false,
+        "charIsSigned": false,
+        "languageMode": "c99",
+        "splitLoad": false,
+        "thumbMode": false,
+        "compileWarning": true
+    },
+    "srcDirs": [
+        ".\\src"
+    ],
+    "outDir": ".\\out",
+    "uploadConfig": {
+        "bin": "undefined",
+        "useGuiDownloader": false,
+        "ramInfo": [
+            {
+                "startAddr": "0x20000000",
+                "size": "0x00005000"
+            }
+        ],
+        "endianMode": "Little",
+        "cpuInfo": {
+            "vendor": "ST",
+            "cpuName": "STM32F103C8"
+        },
+        "proType": 1,
+        "launchAppAfterProgram": true,
+        "securesChip": false,
+        "speed": 5000
+    }
+}

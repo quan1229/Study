@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath":[
+                "D:\\Software\\Keil\\Keil_v5\\ARM\\ARMCC\\include",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "${workspaceFolder}\\Drivers\\CMSIS\\Include",
+                "${workspaceFolder}\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "${workspaceFolder}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "${workspaceFolder}\\Inc"
+            ],  
+            "defines": [
+                "_DEBUG",
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
+        
+            ],
+            "intelliSenseMode":"msvc-x64"
+        }
+    ],
+    "version": 4
+}

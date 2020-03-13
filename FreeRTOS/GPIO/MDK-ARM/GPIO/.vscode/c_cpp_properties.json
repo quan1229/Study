@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Inc",
+                "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "f:\\Study\\FreeRTOS\\GPIO\\MDK-ARM\\..\\Drivers\\CMSIS\\Include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

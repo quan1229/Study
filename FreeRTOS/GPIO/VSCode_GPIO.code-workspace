@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iosfwd": "cpp",
+			"string": "cpp",
+			"main.h": "c",
+			"stm32f1xx_hal.h": "c",
+			"gpio.h": "c",
+			"stm32f1xx_hal_conf.h": "c"
+		}
+	}
+}
